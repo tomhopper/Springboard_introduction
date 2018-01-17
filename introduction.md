@@ -8,7 +8,10 @@ for keeping fit and have a pet house rabbit.
 
 # What I hope to gain from this course
 
-I love teaching others and helping them to see what they can do.
+Three things I hope to gain from this course are:
+
+1. Helping others to learn new skills
+2. Editing an enumerated list in markdown
 
 # What challenges I anticipate facing
 
