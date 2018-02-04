@@ -17,6 +17,18 @@ If your employer doesn't have a dataset that you want to work on, finding data c
 
 ## Unit 2: Programming in R
 
+### Assignment operators
+
+The R examples that you'll find on the web typically use one of two assignment operators, "`=`" and "`<-`." People coming from a math or programming background often prefer `=`, because they're used to it.
+
+In fact, R supports at least four methods of assignment: the two above, plus `<<-` and `assign()`. In addition, the two arrow operators can be flipped around, like `->` and `->>`.
+
+Each of these assignment operators work a little differently, mostly by dealing differently with environment scoping. If you're not clear what the impact of those differences will be on how your code runs, then stick with `<-` until you know what you're doing with the other operators. You can't quite trust that `=` behaves the way you intend, but `<-` normally will.
+
+In addition, it's a good idea to adopt a consistent style to make your code easier to read. The _de facto_ standard is to assign with `<-` to a variable name on the left-hand side; stick with it.
+
+See `?assignOps` and `?assign` for details.
+
 ### Subsetting and extraction
 
 [Subsetting and extracting](http://rpubs.com/tomhopper/182940) data using bracket notation and _dplyr_'s functions. R’s bracket notation, or bracket operators, is a frequent source of confusion for new users. Follow the link for further explanation of how these operators work.
