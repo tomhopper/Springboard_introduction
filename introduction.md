@@ -1,30 +1,22 @@
 # Biography
 
-Hi everyone. My name is Guy. I have a background in algorithm development for
-Radar and Raman spectroscopy. It was my PhD in statistical pattern recognition
-that got me into this field, if you can call it a field, that mixes programming
-with science and domain knowledge and more than a little hacking. I enjoy running
-for keeping fit and have a pet house rabbit.
+Hi everyone. My name is Tom. I have a background in innovation and research and development. It was my early days as a materials science researcher that got me into data science&mdash;before the blend of software engineering, science, hacking, statistics, and domain knowledge had a name.
 
 # What I hope to gain from this course
 
 Three things I hope to gain from this course are:
 
 1. Helping others to learn new skills
-2. Editing an enumerated list in markdown
+2. Encouraging [evidence-based decision making](https://en.wikipedia.org/wiki/Evidence-based_management)
 
 # What challenges I anticipate facing
 
 I am very busy and time is very precious. It is going to be very
-hard finding the time to keep up my running after work and studying.
+hard finding the time to balance my commitments at home and at work while studying 10 &ndash; 15 hours each week.
 
 # What strategies I will use to overcome these challenges
 
-I will establish a set routine of going for a run as soon as I get home
-from work, for an hour. That gives me an hour for dinner and then two
-hours to devote to studying. This core of 10 hours in the working week
-can be supplemented by time at the weekend. I will not watch TV during
-the week.
+I will establish a set routine for every-day activities, like dinner, studying, and sleeping. This will include a core of 10 hours in the working week, which can be supplemented on the weekend. I will not watch TV or go out during the week.
 
 # My capstone project ideas
 
