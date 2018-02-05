@@ -1,12 +1,12 @@
 # Foundations Capstone Project Ideas and Data Sources
 
-##Examples
+## Examples
 
 Springboard provides [videos of past capstone project presentations](https://www.youtube.com/playlist?list=PLjKxfZpleE6B-e6hDQ4m7Yrs7s9HIoZZs) via Office Hours Thursdays. 
 
 I did a simple R interactive data exploration of [crime in Michigan](https://tomhopper.shinyapps.io/MI_50_Safest_cities/). Not quite at the level of a capstone project, but it contains most of the elements of a good project.
 
-##Project ideas (entry level):
+## Project ideas (entry level):
 
 These pre-packaged projects are good for the Foundations capstone project, and come with defined goals, scope and available data.
 
@@ -16,7 +16,7 @@ These pre-packaged projects are good for the Foundations capstone project, and c
 * [Data Sources for Cool Data Science Projects: Part 1](http://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-1/)
 * [Data Sources for Cool Data Science Projects: Part 2](http://blog.thedataincubator.com/2014/10/data-sources-for-cool-data-science-projects-part-2/)
 
-##Data-access packages:
+## Data-access packages:
 
 > (See [These R packages import sports weather stock data and more](http://www.computerworld.com/article/3109890/data-analytics/these-r-packages-import-sports-weather-stock-data-and-more.html) for explanation of some of these packages.)
 
@@ -51,7 +51,7 @@ Install using _devtools_:
 * [github.com/hadley/fueleconomy](https://github.com/hadley/fueleconomy)
 * [github.com/tomhopper/eiaenergy](https://github.com/tomhopper/eiaenergy)
 
-##Raw data sources:
+## Raw data sources:
 
 * [Free public data sets for your first data science project](https://www.springboard.com/blog/free-public-data-sets-data-science-project/)
 * Free data sets [https://r-dir.com/reference/datasets.html](https://r-dir.com/reference/datasets.html)
@@ -76,7 +76,7 @@ Install using _devtools_:
 * [Yelp's data](https://www.yelp.com/developers/documentation/v2/overview)
 * [Twitter's data](https://dev.twitter.com/overview/documentation)
 
-##Real-world problems (challenging):
+## Real-world problems (challenging):
 
 These projects are for the more ambitious student, and may require developing skills beyond the Foundations course material.
 
@@ -85,7 +85,7 @@ These projects are for the more ambitious student, and may require developing sk
 * [Data science competitions to save the world](https://www.drivendata.org/)
 * [U.S. government data science challenges](https://www.challenge.gov/list/)
 
-##Inspiration for project ideas:
+## Inspiration for project ideas:
 
 * http://vizwiz.blogspot.com/p/makeover-monday-challenges.html
 * http://www.datavizchallenge.org/
