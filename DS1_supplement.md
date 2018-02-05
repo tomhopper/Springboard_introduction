@@ -84,9 +84,30 @@ Once you've completed Springboard's Unit 2 lessons, please try your hand at thes
 8. Check the data type for the *my_names* column and ensure that it is a factor.
 9. Using tidyr, arrange the data in three columns and save the result to a new variable name. The columns should be: *my_names*, *variable* and *value*, where *value* contains the values of the numeric columns and *variable* identifies which column the numbers originated from.
 
+## Unit 6: Data Story
+
+### The importance of the data story
+
+When the Space Shuttle Challenger exploded 73 seconds into launch on January 28, 1986, the engineers who designed the solid rocked boosters at Morton Thiokol knew what had happened. They had predicted it.
+
+They also failed to effectively tell the data story to NASA decision-makers. Their data story failed them, with disastrous results. Edward Tufte has looked at this part of the failure, and you can see some of the slides prepared for the after-accident investigation, and one much clearer redesign by Tufte in [this blog post by Bruce Tognazzini](http://www.asktog.com/books/challengerExerpt.html).
+
+As Tufte concludes in his analysis, "_there are right ways and wrong ways to show data; there are displays that reveal the truth and displays that do not_."[^1]
+
+The data story is, in many ways, much more important than the data analysis itself.
+
+### Examples
+
+It's much easier to learn what good data stories looks like, compared to "wrong" data stories, with paired examples. Unfortunately, most people don't publish bad versions of their analyses, so these are hard to find. In addition to the example above, Edward Tufte's (inactive) discussion forum contains examples, including a good thread on [cancer survival rates](https://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0000Jr&topic_id=1&topic=Ask+E%2eT%2e), where Tufte and his readers iterate through the same data multiple times.
+
+Garr Reynolds, of [Presentation Zen](http://www.presentationzen.com), also tries to fill this gap with his books and blog posts on presentation design. Some of the more starkly-contrasted examples are drawn from comparing presentations by Steve Jobs and Bill Gates. The differences in [visual complexity](http://www.presentationzen.com/presentationzen/2005/11/the_zen_estheti.html) and [message clarity](http://www.presentationzen.com/presentationzen/2007/09/steve-bill-redu.html) are clear. Reynolds even compares [Bill Gates to Bill Gates](http://www.presentationzen.com/presentationzen/2010/08/the-naked-transformation-of-bill-gates-the-presenter.html).
+
 ## Unit 7: Introduction to Machine Learning
 
 ### Time Series
 
 Many data sets are in the form of time series&mdash;data collected over time, with some sort of time stamp. Knowing [how to analyze and decompose time series](http://rpubs.com/tomhopper/354688) will be useful to nearly every data scientist, Six Sigma practitioner, and engineer. Unfortunately, time series is not covered in the DS1 course. Follow the link above for an introduction that may help you with the course.
 
+## References
+
+[^1]: Tufte, Edward Rolf. *Visual and statistical thinking: Displays of evidence for making decisions ; displays of evidence for making decisions*. Graphics Pr., 2003.
