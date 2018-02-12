@@ -61,7 +61,8 @@ You can check if you have Git installed, and which version you have, by opening 
 
 Though setting up RStudio to connect to GitHub is fairly easy, sometimes a little extra guidance helps. Here are two good resources:
 
-* One of the more accessible guides to [using GitHub with R and RStudio](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/) is at the Molecular Ecologist blog.
+* One of the more accessible guides to [using GitHub with R and RStudio](http://www.molecularecologist.com/2013/11/using-github-with-r-and-rstudio/) is at the Molecular Ecologist blog,
+* This nice [step-by-step guide](https://github.com/numeract/learning-R/tree/master/RStudio-IDE/github) by a Springboard mentor, or
 * RStudio's own [Using Version Control with RStudio](https://support.rstudio.com/hc/en-us/articles/200532077-Version-Control-with-Git-and-SVN) is a good secondary read.
 
 #### Learning more about git
