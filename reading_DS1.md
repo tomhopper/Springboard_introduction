@@ -19,8 +19,6 @@ Keep up on what’s going on in the community, and see a wide range of methods:
 * [https://www.datatau.com/](https://www.datatau.com/)
 * [https://www.kdnuggets.com/](https://www.kdnuggets.com/)
 
-## Expanding
-
 ## Business and Industrial Processes
 If you’ll be involved with understanding, designing, or optimizing business processes, Donald Wheeler’s small _Understanding Variation: The key to managing chaos_ is indispensable.
 

@@ -71,3 +71,31 @@ Once you've completed Springboard's Unit 2 lessons, please try your hand at thes
 8. Check the data type for the *my_names* column and ensure that it is a factor.
 9. Using tidyr, arrange the data in three columns and save the result to a new variable name. The columns should be: *my_names*, *variable* and *value*, where *value* contains the values of the numeric columns and *variable* identifies which column the numbers originated from.
 
+### Pipe operator
+
+In Unit 3, you will be introduced to the _dplyr_ package and the pipe operator (`%>%`). I provide a small preview here to show a broader application of the pipe.
+
+_dplyr_'s pipe operator is used exclusively with data frames and the _tidyverse_'s extension of the data frame, the _tibble_, but is borrowed from the _magrittr_ package. With _magrittr_, the pipe and may be used in all of your code to create code that is easier to both write and read. The advantages of the pipe operator are espoused in the [_magrittr_ vignette](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html).
+
+Borrowing from the vignette, the following sets of code are equivalent. The first version is a standard function call, as you will have practiced them in Unit 2:
+
+	car_data <- 
+	  transform(aggregate(. ~ cyl, 
+	                      data = subset(mtcars, hp > 100), 
+	                      FUN = function(x) round(mean(x, 2))), 
+	            kpl = mpg*0.4251)
+
+As we read this code, we have to build an "outside-in" understanding of what it's doing: "assign to *car_data* the transform of the aggregate data that is the rounded mean of the second column of a subset of *mtcars*, converted to *kpl*."
+
+The _magrittr_ version uses the same functions, and while less compact, it is easier to read thanks to its top-down flow; we can just read straight through what is done.
+
+	library(magrittr)
+	
+	car_data <- 
+	  mtcars %>%
+	  subset(hp > 100) %>%
+	  aggregate(. ~ cyl, data = ., FUN = . %>% mean %>% round(2)) %>%
+	  transform(kpl = mpg %>% multiply_by(0.4251)) %>%
+	  print
+
+This might be read as "with *mtcars*, get the subset of records where *hp* is greater than 100, *then* aggregate by calculating the mean, *then* transform the result to *kpl*."
