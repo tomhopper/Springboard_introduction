@@ -3,6 +3,10 @@
 
 ## Unit 2: Programming in R
 
+### Types of variables
+
+How we analyze data, and what we do to process data, depends heavily on both the type of data that we have and the analyses that we want to perform&mdash;the kinds of questions we are asking of the data. Having a basic understanding of the theory of measurement scales is therefore very useful in data science, and I [provide an introduction here](http://rpubs.com/tomhopper/r_intro_measurement).
+
 ### Assignment operators
 
 The R examples that you'll find on the web typically use one of two assignment operators, "`=`" and "`<-`." People coming from a math or programming background often prefer `=`, because they're used to it.
