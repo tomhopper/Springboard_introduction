@@ -59,7 +59,57 @@ Though setting up RStudio to connect to GitHub is fairly easy, sometimes a littl
 
 GitHub's own [Bootcamp](https://help.github.com/categories/bootcamp/) provides a good tutorial for people new to Git, and few resources are as complete as the [Git Pro](https://git-scm.com/book/en/v2) book.
 
-### Extra Practice Problems
+### Using RStudio projects
+
+The early examples in Unit 2 walk you through the use of the `getwd()` and `setwd()` functions for controlling which directories R searches. RStudio offers a much more powerful alternative: projects. I can't 
+
+RStudio projects is a mechanism for organizing your data, R source and RMarkdown, and output files cleanly and efficiently, with almost no work on your part. When you open a project in RStudio, RStudio automatically cleans up your workspace, ditching data that's not used and saved in the project, switches the working directory to the project's directory, and loads R and RStudio settings and history for the project. You can also automatically set up git version control for each project, making syncing your projects to GitHub a snap. Switching between projects is a simple point-and-click operation, and RStudio supports opening multiple projects at once, each with their own (separate) configuration, history, working directory, and data environment.
+
+RStudio's support site offers a nice [introduction to using projects](https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects), and you can find some best practices to managing analysis projects at Software Carpentry's [Project Management with RStudio](https://swcarpentry.github.io/r-novice-gapminder/02-project-intro/).
+
+One tip that I'd offer: RStudio will offer to save your workspace to a .RData file. *Always decline*. You can even turn this feature off in RStudio's preferences. As the Software Carpentry article suggests, you should treat generated output&mdash;including data&mdash;as disposable. Design your scripts to reload data at the start of every session. This will keep your code reproducible and save you from the headache of debugging when, at a future point in your code, you discover that your code doesn't produce the data that you've been working with (maybe you applied some data transformation but forgot to save the code to your scripts).
+
+If your raw data is large enough that it's inconvenient to load and wrangle data every time you come back to work on it, you can write your scripts to save cleaned data in a convenient format, and load the cleaned data quickly at the start of your project. By using an `if...else` flow control statement, you can set up your code to only perform the slow loading and wrangling of data once.
+
+Your code for reading in raw data and cleaning it should look like:
+
+```{r}
+if(file.exists("data/my_data_frame.rds")) {
+  data_df <- readRDS(file = "data/my_data_frame.rds")
+} else {
+  # Load and wrangle data to data frame data_df
+  # This is the part that you don't want to repeat
+  # every time you come back to your project.
+  
+  saveRDS(object = data_df, 
+          file = "data/my_data_frame.rds", 
+          compress = "gzip")
+}
+# EDA, statistical analysis, etc.
+```
+
+If you ever need to update your data from new raw data, you can delete the file `my_data_frame.rds`, and this code will then load the raw data, wrangle it, and save it.
+
+Whether you choose the RDS file format, as above, or the CSV file format, depends on your needs.
+
+If saving disk space is important, or you want to preserve metadata (descriptions of the columns of a data frame, data source, etc.), then RDS will be the format of choice. If speed of reading and writing is your primary concern, then CSV files using *data.table*'s `fread()` and `fwrite()` functions will be the best format for you, as these are several times faster than any other read and write method in R. The code would look like:
+
+```{r}
+library(data.table)
+if(file.exists("data/my_data_frame.csv")) {
+  data_df <- fread(input = "data/my_data_frame.csv")
+} else {
+  # Load and wrangle data
+  
+  fwrite(x = data_df,
+         file = "data/my_data_frame.csv")
+}
+# EDA, statistical analysis, etc.
+```
+
+RDS gives the option of saving files with or without compression. gzip-compressed RDS files are generally read into R more quickly than uncompressed RDS files, and take up about a tenth the disk space. There is a small trade-off in write times, as gzip-compressed RDS files take about twice as long to write to disk as uncompressed files, but since you will be writing once and reading many times, this small trade-off is more than made up for in the long-run. `writeRDS()` offers two other options for compression&mdash;bzip2 and xz&mdash;but these result in slower read and write times and typically provide little benefit in file size.
+
+### Extra Practice Problems (optional)
 
 Unit 2 does a great job of providing hands-on examples, but it does not provide any opportunity to share work with your mentor or to stretch your skills by working "without a net." The problems below provide some additional practice of the skills taught in that unit and will help me gauge where I can best focus our efforts to accelerate your learning.
 
