@@ -32,6 +32,7 @@ Unless otherwise noted, packages are available from CRAN.
 * **RSocrata**: Provides easier interaction with Socrata open data portals
 * **[forbesListR](https://github.com/abresler/forbesListR)**: R wrapper for the Forbes list API. `devtools::install_github("abresler/forbesListR")`
 * **Lahman**: Provides the tables from the 'Sean Lahman Baseball Database' as a set of R data.frames.
+* **pvsR**: facilitates API retrieval of data from Project Vote Smart's online database on U.S. politics. Available on CRAN [development version on GitHub](https://github.com/umatter/pvsR).
 
 ### Packages available on GitHub
 
