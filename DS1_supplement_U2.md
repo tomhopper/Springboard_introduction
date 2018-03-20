@@ -3,6 +3,12 @@
 
 ## Unit 2: Programming in R
 
+### The "Whole Game" of Data Analysis
+
+Want to see a whole data analysis? Hadley Wickham walks you through.
+
+[![Whole Game video](https://i.imgur.com/siKpI3i.png)](https://youtu.be/go5Au01Jrvs)
+
 ### Types of variables
 
 How we analyze data, and what we do to process data, depends heavily on both the type of data that we have and the analyses that we want to perform&mdash;the kinds of questions we are asking of the data. Having a basic understanding of the theory of measurement scales is therefore very useful in data science, and I [provide an introduction here](http://rpubs.com/tomhopper/r_intro_measurement).
