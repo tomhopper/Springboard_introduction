@@ -10,7 +10,7 @@ For a fairly good overview of data science methods, read through [this blog post
 
 Capstone projects are intended to assess your ability to apply the DS1 tool set, and your affinity for using data science to answer interesting questions. Most of the work will be done in Unit 9, so we have time and flexibility to figure out what you want to work on.
 
-Start with Springboard's Capstone Project Guidelines (the PDF in Unit 1.2), and take the time to follow the links.
+Start with Springboard's Capstone Project Guidelines (the PDF in Unit 1.2), and take the time to follow the links. Then read through the Springboard blog post [the Complete Layman's Guide to what a Data Scientist Actually Does](https://medium.springboard.com/the-data-science-process-the-complete-laymans-guide-to-what-a-data-scientist-actually-does-ca3e166b7c67), which lays out a process that you can follow for your project.
 
 If your employer doesn't have a dataset that you want to work on, finding data can be challenging for new data scientists. In addition to the data sources listed in the Project Guidelines, I provide an [annotated and organized list of potential data sources](Project_ideas_and_data_sources.md).
 

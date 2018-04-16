@@ -15,6 +15,8 @@ Estimates show that "80% of a data scientist's time is spent wrangling data." ([
 <div style="margin-top:10px; margin-left:50px; margin-right:20px; font-style:italic">80% of the time importing data is boring and tedious, and then 20% of the time it's just endless screaming.</div>
 <div style="text-align:right">- Hadley Wickham</div>
 
+If the Company/Product and Titanic data sets leave you wanting a little more practice, give this a try: [A Dirty Dataset for You to Clean](http://rmhogervorst.nl/cleancode/blog/2018/03/12/a-dirty-dataset-for-you-to-clean.html).
+
 **[Unit 6](DS1_supplement_U6.md)**: More on the data story, how to write a technical report, and further resources for presentations.
 
 **[Unit 7](DS1_supplement_U7.md)**: The missing lesson: intro time series.

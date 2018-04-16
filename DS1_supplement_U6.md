@@ -16,7 +16,7 @@ The data story is, in many ways, much more important than the data analysis itse
 
 You have two main deliverables in the capstone project: a written report and a slide deck (e.g. PowerPoint). Writing technical reports is an art in itself, and there is no better guidance in how to write them than [Katzoff's 1964 "Clarity in Technical Reporting"](https://ocw.mit.edu/courses/media-arts-and-sciences/mas-111-introduction-to-doing-research-in-media-arts-and-sciences-spring-2011/readings/MITMAS_111S11_read_ses5.pdf). I _strongly_ recommend reading this 25 page booklet in preparation for writing your project report.
 
-The science magazine Nature also provides an ebook, [_Communication for Scientists_](https://www.nature.com/scitable/ebooks/english-communication-for-scientists-14053993/contents), that goes into somewhat more detail than Katzoff's work. NASA's Lewis Research Center likewise offers a more details-oriented tract, [Vidoli's "Technical Report Writing"](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19930013813.pdf).
+If you find yourself wanting more after reading Katzoff, the science magazine *Nature* also provides an ebook, [_Communication for Scientists_](https://www.nature.com/scitable/ebooks/english-communication-for-scientists-14053993/contents), that goes into somewhat more detail than Katzoff's work. NASA's Lewis Research Center likewise offers a more details-oriented tract, Vidoli's ["Technical Report Writing"](https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19930013813.pdf).
 
 ### Examples
 
