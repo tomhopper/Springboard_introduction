@@ -8,6 +8,8 @@ For a fairly good overview of data science methods, read through [this blog post
 
 What's a day in the life of a data scientist like? KDNuggets [has you covered](https://www.kdnuggets.com/2017/11/day-life-data-scientist.html), and Springboard [steps through the data science process](https://medium.springboard.com/the-data-science-process-the-complete-laymans-guide-to-what-a-data-scientist-actually-does-ca3e166b7c67).
 
+Hadley Wickham is the creator of ggplot2, dplyr, tidyr, and other packages that you'll use in this course, and there are a couple of nice [Quora answers on how he works](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).
+
 ### 1.2 Start thinking about your Capstone Project
 
 Capstone projects are intended to assess your ability to apply the DS1 tool set, and your affinity for using data science to answer interesting questions. Most of the work will be done in Unit 9, so we have time and flexibility to figure out what you want to work on.
