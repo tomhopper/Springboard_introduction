@@ -1,3 +1,4 @@
+<style scoped> @import url("rmd_doc_suffix.css"); </style>
 # DS1 Course Supplemental Resources
 
 ## Unit 1: Getting Started

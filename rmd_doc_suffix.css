@@ -1,0 +1,39 @@
+<style type = "text/css">
+p { font-family:Corbel,"Open Sans",Helvetica,sans-serif; }
+table {table-layout: auto;}
+.newthought { font-variant: small-caps; 
+	font-size: 1.2em; 
+}
+.caption { color: #999999; 
+	font-size: 90% 
+}
+.note {
+	background-color: #f9f9eb; 
+	border: 1px solid #DDDDDD; 
+	margin-left: 3em; 
+	font: 85%; 
+	padding: 1em;
+    -moz-border-radius-topright:5px;
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-right-radius:5px;
+    -webkit-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+h4.note {
+	background:#f9f9eb;
+	margin-top:-1.5em;
+	padding:2px 5px 2px 5px;
+	width:3em;
+	font-style: italic;
+}
+.blockquote {
+	margin-top:10px; 
+	margin-left:50px; 
+	margin-right:20px; 
+	font-style:italic;
+}
+.quoteattrib {
+	text-align:right;
+}
+</style>

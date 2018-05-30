@@ -1,3 +1,4 @@
+<style scoped> @import url("rmd_doc_suffix.css"); </style>
 # Data Science Job Search Resources
 
 ## Job search guides

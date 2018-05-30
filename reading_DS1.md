@@ -1,3 +1,4 @@
+<style scoped> @import url("rmd_doc_suffix.css"); </style>
 # Annotated Reading List for Springboard Foundations of Data Science
 
 ## Statistics and Machine Learning

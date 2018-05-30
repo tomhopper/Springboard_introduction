@@ -1,3 +1,4 @@
+<style scoped> @import url("rmd_doc_suffix.css"); </style>
 # Foundations Capstone Project Ideas and Data Sources
 
 ## Examples

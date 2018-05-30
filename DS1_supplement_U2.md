@@ -1,3 +1,4 @@
+<style scoped> @import url("rmd_doc_suffix.css"); </style>
 # DS1 Course Supplemental Resources
 
 
@@ -123,7 +124,7 @@ Once you've completed Springboard's Unit 2 lessons, please try your hand at thes
 
 1. Create a vector named *my_vec* that holds 5 numbers that you, the programmer, type in.
 2. Create a vector with a new name whose elements are twice *my_vec*.
-3. Create a new vector of five random numbers with either a normal or uniform distribution.
+3. Create a new vector of five random numbers pulled from either a normal or uniform distribution.
 4. Create a new vector whose elements are ten greater than those in the vector from (3).
 5. Create a new character vector named *my_names* containing five names (e.g. Disney names, or five of your friends, or five food items).
 6. Create a data frame that contains all five of the above vectors.
