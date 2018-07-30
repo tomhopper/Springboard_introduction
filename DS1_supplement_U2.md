@@ -136,9 +136,11 @@ Once you've completed Springboard's Unit 2 lessons, please try your hand at thes
 
 In Unit 3, you will be introduced to the _dplyr_ package and the pipe operator (`%>%`). I provide a small preview here to show a broader application of the pipe.
 
-_dplyr_'s pipe operator is used exclusively with data frames and the _tidyverse_'s extension of the data frame, the _tibble_, but is borrowed from the _magrittr_ package. With _magrittr_, the pipe and may be used in all of your code to create code that is easier to both write and read. The advantages of the pipe operator are espoused in the [_magrittr_ vignette](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html).
+_dplyr_'s pipe operator is used exclusively with data frames and the _tidyverse_'s extension of the data frame, the _tibble_, and this is how you'll use it in the DS1 course.
 
-Borrowing from the vignette, the following sets of code are equivalent. The first version is a standard function call, as you will have practiced them in Unit 2:
+However, _dplyr_'s pipe is borrowed from the _magrittr_ package. With _magrittr_, the pipe and may be used in all of your code to create code that is easier to both write and read. The advantages of the pipe operator are espoused in the [_magrittr_ vignette](https://cran.r-project.org/web/packages/magrittr/vignettes/magrittr.html).
+
+Borrowing from the vignette, the following sets of code are equivalent. The first version is a standard function call, similar to those you will have practiced in Unit 2:
 
 	car_data <- 
 	  transform(aggregate(. ~ cyl, 
@@ -146,7 +148,7 @@ Borrowing from the vignette, the following sets of code are equivalent. The firs
 	                      FUN = function(x) round(mean(x, 2))), 
 	            kpl = mpg*0.4251)
 
-As we read this code, we have to build an "outside-in" understanding of what it's doing: "assign to *car_data* the transform of the aggregate data that is the rounded mean of the second column of a subset of *mtcars*, converted to *kpl*."
+As we read this code, we have to build an "outside-in" understanding of what it's doing: "assign to *car_data* the transform of the aggregate data that is the rounded mean of the second column of a subset of *mtcars*, converted to *kpl*." Alternatively, we can work from the inside-out, reading it like a recipe. Either way, it can be hard to read.
 
 The _magrittr_ version uses the same functions, and while less compact, it is easier to read thanks to its top-down flow; we can just read straight through what is done.
 
