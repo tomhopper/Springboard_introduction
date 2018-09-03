@@ -11,15 +11,13 @@ To help with common questions, I've prepared supplemental material for some of t
 
 *There are also additional practice problems that I ask students attempt at the end of Unit 2.* These optional problems are a good way for you to practice the skills taught in Unit 2, and provide us a chance to improve your proficiency.
 
-**Unit 3**: Data Wrangling
+**[Unit 3](DS1_supplement_U3.md)** Data Wrangling: Alternative resources for learning data wrangling, with exercises to supplement Data Camp.
 
 <div style="margin-top:10px; margin-left:50px; margin-right:20px; font-style:italic">80% of a data scientist's time is spent wrangling data.</div>
 <div style="text-align:right"><a href="https://www.computerworld.com/article/2902920/the-data-science-ecosystem-part-2-data-wrangling.html" target="_blank">2015, CrowdFlower</a></div>
 
 <div style="margin-top:10px; margin-left:50px; margin-right:20px; font-style:italic">80% of the time importing data is boring and tedious, and then 20% of the time it's just endless screaming.</div>
 <div style="text-align:right">Hadley Wickham</div>
-
-If the Company/Product and Titanic data sets leave you wanting a little more practice, give this a try: [A Dirty Dataset for You to Clean](http://rmhogervorst.nl/cleancode/blog/2018/03/12/a-dirty-dataset-for-you-to-clean.html).
 
 **[Unit 6](DS1_supplement_U6.md)**: More on the data story, how to write a technical report, and further resources for presentations.
 
