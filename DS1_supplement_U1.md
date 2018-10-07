@@ -11,6 +11,17 @@ What's a day in the life of a data scientist like? KDNuggets [has you covered](h
 
 Hadley Wickham is the creator of ggplot2, dplyr, tidyr, and other packages that you'll use in this course, and there are a couple of nice [Quora answers on how he works](https://www.quora.com/How-is-Hadley-Wickham-able-to-contribute-so-much-to-R-particularly-in-the-form-of-packages).
 
+#### My experience
+
+Every project is a different, but if I had to budget time for a generic project, it would look something like:
+
+* 40% collecting and wrangling data
+* 25% writing and graphing for reporting
+* 25% EDA and analysis
+* 10% organizing and documenting analysis projects (mainly for future re-use and reproducibility)
+
+Collecting and wrangling data often takes much longer than analyzing it does. By some estimates, as much as 80% of a data scientist's time is spent wrangling. Writing up results for reports or presentations can take as long as the analysis itself, especially if you put the time into good writing and good visualizations that your work&mdash;and your customer (or client)&mdash;deserves. Finally, a small but not insignificant amount of time needs to go into keeping your work organized. You, and your colleagues, will thank you later for this effort.
+
 ### 1.2 Start thinking about your Capstone Project
 
 Capstone projects are intended to assess your ability to apply the DS1 tool set, and your affinity for using data science to answer interesting questions. Most of the work will be done in Unit 9, so we have time and flexibility to figure out what you want to work on.
