@@ -55,6 +55,7 @@ Install using _devtools_:
 
 ## Raw data sources:
 
+* Google provides a [dataset search](https://toolbox.google.com/datasetsearch) from which you can locate datasets from many sources
 * [Free public data sets for your first data science project](https://www.springboard.com/blog/free-public-data-sets-data-science-project/)
 * Free data sets [https://r-dir.com/reference/datasets.html](https://r-dir.com/reference/datasets.html)
 * [NFL Data API](http://www.armchairanalysis.com/data-api.php)

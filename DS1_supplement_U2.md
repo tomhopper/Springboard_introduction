@@ -14,17 +14,36 @@ Want to see a whole data analysis? Hadley Wickham walks you through.
 
 How we analyze data, and what we do to process data, depends heavily on both the type of data that we have and the analyses that we want to perform&mdash;the kinds of questions we are asking of the data. Having a basic understanding of the theory of measurement scales is therefore very useful in data science, and I [provide an introduction here](http://rpubs.com/tomhopper/r_intro_measurement).
 
-### Assignment operators
+### Assignment operators<a name="assignops"></a>
 
-The R examples that you'll find on the web typically use one of two assignment operators, "`=`" and "`<-`." People coming from a math or programming background often prefer `=`, because they're used to it.
+In examples of R code you'll find that people typically use one of two assignment operators, "`=`" or "`<-`." People coming from a math or programming background often prefer `=`, while long-time R users will often prefer `<-`.
 
 In fact, R supports at least four methods of assignment: the two above, plus `<<-` and `assign()`. In addition, the two arrow operators can be flipped around, like `->` and `->>`.
 
-Each of these assignment operators work a little differently, mostly by dealing differently with environment scoping. If you're not clear what the impact of those differences will be on how your code runs, then stick with `<-` until you know what you're doing with the other operators. You can't quite trust that `=` behaves the way you intend, but `<-` normally will.
+Each of these assignment operators work a little differently. There is, first, a different order of precedence, so that `x <- y <- 5` produces the same result as `x = y = 5` but `x <- y = 5` produces an error.
 
-In addition, it's a good idea to adopt a consistent style to make your code easier to read. The _de facto_ standard is to assign with `<-` to a variable name on the left-hand side; stick with it.
+Second, the `=` operator actually has two different definitions in R: it is both an assignment operator *and* a syntax token that signals named argument passing in functions. Consider, for example, the difference in meaning between the following two versions of `x = 5`:
 
-See `?assignOps` and `?assign` for details.
+```
+x = 5
+mean(x = 5)
+```
+
+In contrast, `<-` can only be used as an assignment operator.
+
+`=` also is not allowed in certain contexts. For example the following all produce different results, and use of `=` will throw an error:
+
+```
+if(x = 0)
+if(x <- 0)
+if(x == 0)
+```
+
+In addition, it's a good idea to adopt a consistent style to make your code easier to read. The _de facto_ standard is to assign with `<-` to a variable name on the left-hand side. Following this standard will help others read your code.
+
+If you're not clear what the impact of those differences will be on how your code runs or how others understand your code, then stick with `<-` until you know what you're doing with the other operators. You can't quite trust that `=` behaves the way you intend, but `<-` will.
+
+See `?assignOps` and `?assign` for details, and the answers to this [Stack Overflow question](https://stackoverflow.com/q/1741820/393354) for further explanation.
 
 ### Subsetting and extraction
 
