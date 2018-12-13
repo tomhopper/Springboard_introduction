@@ -6,6 +6,10 @@
 
 To help with common questions, I've prepared supplemental material for some of the units.
 
+Successful students in the Introduction to Data Science (DS1) course treat the course like any college-level class. They block out time in their schedule and prioritize classwork over going out, working extra hours at their day job, and Netflix. It's important to have downtime and take care of yourself; also block out that time, but don't sacrifice study time just because this is a self-paced course.
+
+Start off right by using Springboard's [study plan tool](https://www.springboard.com/workshops/data-science/learn/#/study-plan) to figure out how many hours you need to block out each week. You can also access the tool from the [curriculum page](https://www.springboard.com/workshops/data-science/learn/#/curriculum/). Block out your study time on your calendar. Then figure in an extra one to two weeks at the end of the course to account for the unexpected.
+
 **[Cheatsheets](Cheatsheets.md)** are a great way to quickly find the functions you need to solve problems. You can find a use for most of these in this course.
 
 **[Unit 1: Welcome!](DS1_supplement_U1.md)**: this page offers links that provide a nice overview of the methods of data science, and some insights and public data sources for your capstone project.
