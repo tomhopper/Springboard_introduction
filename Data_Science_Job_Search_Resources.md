@@ -5,6 +5,16 @@
 
 Read Springboard’s 70-page [Guide to Data Science Jobs](https://www.springboard.com/resources/guide-to-data-science-jobs/).
 
+Here's some good advice for getting a job in data science&mdash;or in any field, really. [7 Tips to Getting a Data Science Job Faster](https://towardsdatascience.com/7-tips-to-getting-a-data-science-job-faster-a5a1e871366):
+
+1. Block Out Social Calendar, Forget Netflix/TV
+2. Keep Your Resume Updated
+3. Practice Interview Questions
+4. Work on a Side Project
+5. Networking
+6. Apply to Jobs within your Domain
+7. Accept Junior or Ancillary Roles
+
 Toward the bottom of [this blog post](https://blog.modeanalytics.com/data-science-career/) are resources for interviewing.
 
 Asking good questions is critical to finding the right job for yourself, and can help you stand out from other candidates. You need to research the company and the job, and think about the job ahead of the interview. This article can help you come up with good questions: [Do I Want To Work In This Company, or What Questions To Ask On An Interview](https://dev.to/ice_lenor/do-i-want-to-work-in-this-company-or-what-questions-to-ask-on-an-interview-7po)
