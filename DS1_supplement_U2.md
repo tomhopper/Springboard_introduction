@@ -55,6 +55,18 @@ See `?assignOps` and `?assign` for details, and the answers to this [Stack Overf
 
 Windows users sometimes get tripped up when installing R if they don't have administrator privileges or if their Documents folder is synced to networked storage (fairly commonly set up by corporate IT to automatically back up data). [Installing R without admin privileges](http://rpubs.com/tomhopper/windows_nonadmin_install) walks you through correctly installing and setting up R and RStudio in these circumstances.
 
+#### Programmer's Fonts
+
+RStudio comes pre-configured to use a monospaced font for code. Monospaced fonts use the same width for every character, and this can make code easier to read. There are other font tweaks that make reading code easier. For instance, you want to easily tell the difference between an upper-case letter 'O' and the number '0'. I recommend installing and using one of two fonts.
+
+My personal preference is [Fira Code](https://github.com/tonsky/FiraCode/tree/master/distr). Fira Code not only has nicely-rendered characters, but uses multi-character glyphs to. For instance, the assignment operator in R is two characters together: the less-than (`<`) and a dash (`-`). Together, they look like: `<-`. Fira Code renders this as a single, leftward-pointing arrow on the screen.
+
+For Mac OS and Windows systems, you'll want the TrueType (TT) version of Fira Code.
+
+A good, highly readable alternative is [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro). Anonymous Pro does not use multi-character glyphs, but in some ways is easier to read than Fira Code.
+
+After you've installed the font on your computer, you can change the font used by RStudio by selection "Global Options" from RStudio's "Tools" menu, then selecting the "Appearance" pane, and finally changing the font in the "Editor font:" drop-down menu.
+
 ### Setting up Git and GitHub
 
 #### Git and GitHub&mdash;there's a difference?
@@ -176,8 +188,11 @@ The _magrittr_ version uses the same functions, and while less compact, it is ea
 	car_data <- 
 	  mtcars %>%
 	  subset(hp > 100) %>%
-	  aggregate(. ~ cyl, data = ., FUN = . %>% mean %>% round(2)) %>%
-	  transform(kpl = mpg %>% multiply_by(0.4251)) %>%
+	  aggregate(. ~ cyl, data = ., 
+	            FUN = . %>% mean %>% 
+	                  round(2)) %>%
+	                  transform(kpl = mpg %>% 
+	                            multiply_by(0.4251)) %>%
 	  print
 
 This might be read as "with *mtcars*, get the subset of records where *hp* is greater than 100, *then* aggregate by calculating the mean, *then* transform the result to *kpl*."

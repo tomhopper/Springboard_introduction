@@ -2,7 +2,7 @@
 # DS1 Course Supplemental Resources
 
 <div style="margin-top:10px; margin-left:50px; margin-right:20px; font-style:italic">Data are not taken for museum purposes; they are taken as a basis for doing something. If nothing is to be done with the data, then there is no use in collecting any. The ultimate purpose of taking data is to provide a basis for action or a recommendation for action</div>
-<div style="text-align:right"><a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.1942.10500624" target="_blank">1942, W. Edwards Deming, <br>in Journal of the American Statistical Association, <br>pp 173.</a></div>
+<div style="text-align:right"><a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.1942.10500624" target="_blank">1942, W. Edwards Deming, <br>in Journal of the American Statistical Association, <br>pp 173.</a></div><br>
 
 To help with common questions, I've prepared supplemental material for some of the units.
 
@@ -21,10 +21,10 @@ Start off right by using Springboard's [study plan tool](https://www.springboard
 **[Unit 3: Data Wrangling](DS1_supplement_U3.md)** Data Wrangling: Alternative resources for learning data wrangling, with exercises to supplement Data Camp.
 
 <div style="margin-top:10px; margin-left:50px; margin-right:20px; font-style:italic">80% of a data scientist's time is spent wrangling data.</div>
-<div style="text-align:right"><a href="https://www.computerworld.com/article/2902920/the-data-science-ecosystem-part-2-data-wrangling.html" target="_blank">2015, CrowdFlower</a></div>
+<div style="text-align:right"><a href="https://www.computerworld.com/article/2902920/the-data-science-ecosystem-part-2-data-wrangling.html" target="_blank">2015, CrowdFlower</a></div><br>
 
 <div style="margin-top:10px; margin-left:50px; margin-right:20px; font-style:italic">80% of the time importing data is boring and tedious, and then 20% of the time it's just endless screaming.</div>
-<div style="text-align:right">Hadley Wickham</div>
+<div style="text-align:right">Hadley Wickham</div><br>
 
 **Unit 5: Probability and Descriptive Statistics**: The most important data science lesson you won't learn in this class: sample size and power. While the sexy, public face of data science is often revolves around large data sets, in the real world, we are often working with very limited data. How much data you have in each sub-group in an analysis greatly impacts the uncertainty in your analyses, and therefore the risk in decisions based on your analysis.
 
