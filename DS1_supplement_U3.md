@@ -4,7 +4,7 @@
 
 ## Unit 3: Data Wrangling
 
-Sometimes students have find the video online Data Camp exercises difficult to work with. 
+Sometimes students find the instructional videos difficult to work with. 
 
 When watching the videos on dplyr manipulation, open RStudio, download the related files (i.e. for the "hands-on dplyr tutorial"), and work some of the problems. Gain some practice in the real environment, and don't just watch.
 

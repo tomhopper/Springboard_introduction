@@ -59,7 +59,7 @@ Windows users sometimes get tripped up when installing R if they don't have admi
 
 RStudio comes pre-configured to use a monospaced font for code. Monospaced fonts use the same width for every character, and this can make code easier to read. There are other font tweaks that make reading code easier. For instance, you want to easily tell the difference between an upper-case letter 'O' and the number '0'. I recommend installing and using one of two fonts.
 
-My personal preference is [Fira Code](https://github.com/tonsky/FiraCode/tree/master/distr). Fira Code not only has nicely-rendered characters, but uses multi-character glyphs to. For instance, the assignment operator in R is two characters together: the less-than (`<`) and a dash (`-`). Together, they look like: `<-`. Fira Code renders this as a single, leftward-pointing arrow on the screen.
+My personal preference is [Fira Code](https://github.com/tonsky/FiraCode/tree/master/distr). Fira Code not only has nicely-rendered characters, but uses multi-character glyphs to improve readability. For instance, the assignment operator in R is two characters together: the less-than (`<`) and a dash (`-`). Together, they look like: `<-`. Fira Code seamlessly renders this as a single, leftward-pointing arrow on the screen.
 
 For Mac OS and Windows systems, you'll want the TrueType (TT) version of Fira Code.
 
